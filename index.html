@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crèche Garderie Les Anges De Naty | Douala</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .title-font {
+            font-family: 'Comfortaa', cursive;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mr-3">
+                        <img src="images/crechelogo.png" alt="creche logo" />
+                    </div>
+                    <a href="#" class="title-font text-xl font-bold text-gray-800">Les Anges de Naty</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-blue-600 font-medium">Accueil</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">À propos</a>
+                    <a href="#gallery" class="text-gray-600 hover:text-blue-600 transition">Galerie</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                <h1 class="title-font text-4xl md:text-5xl font-bold text-gray-800 mb-6">Crèche Les Anges de Naty   <span class="text-blue-600">Un cadre de tendresse</span></h1>
+                <p class="text-gray-600 text-lg mb-8">Bienvenue aux Anges de Naty, une crèche moderne et élégante à Douala, où chaque enfant évolue dans un environnement chaleureux, sécurisé et stimulant. Nous mettons au cœur de notre mission éveil, le bien-être et épanouis les tout-petits, à travers des activités ludiques, éducatives et adaptées à chaque âge. Avec une équipe attentionnée et qualifiée, nous offrons un cadre de confiance qui favorise l’autonomie, la créativité et le bonheur de vos enfants. Offrez à votre trésor le meilleur départ dans la vie avec Les Anges de Naty.</p>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="btn-primary text-white px-6 py-3 rounded-full font-medium">Nous contacter</a>
+                    <a href="#services" class="border-2 border-blue-500 text-blue-500 px-6 py-3 rounded-full font-medium">Nos services</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mr-4" data-aos="fade-left">
+                <img src="images/garderie.jpeg" alt="Enfants jouant" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="title-font text-3xl font-bold text-gray-800 mb-4">Nos Services</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-md transition" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="clock" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Horaires flexibles</h3>
+                    <p class="text-gray-600">Accueil à la journée, demi-journée et garde prolongée pour s'adapter à votre emploi du temps.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-md transition" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="book-open" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Activités éducatives</h3>
+                    <p class="text-gray-600">Programmes adaptés à chaque tranche d'âge pour favoriser le développement cognitif et moteur.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-md transition" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="heart" class="text-blue-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Nutrition équilibrée</h3>
+                    <p class="text-gray-600">Repas préparés sur place avec attention portée aux besoins nutritionnels et allergies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="images/garderie1.jpeg" alt="Éducatrice avec enfants" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="title-font text-3xl font-bold text-gray-800 mb-6">À propos de notre crèche</h2>
+                    <p class="text-gray-600 mb-6">Les Anges de Naty est une crèche-garderie située à Douala, dédiée à l'éveil, au bien-être et à la sécurité des tout-petits de 3 mois à 5 ans.</p>
+                    <p class="text-gray-600 mb-6">Fondée avec passion, nous offrons un environnement chaleureux, sécurisé et stimulant où chaque enfant peut s'épanouir à son rythme.</p>
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i data-feather="check" class="text-blue-500 w-4"></i>
+                        </div>
+                        <p class="text-gray-600">Équipe pédagogique qualifiée et bienveillante</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i data-feather="check" class="text-blue-500 w-4"></i>
+                        </div>
+                        <p class="text-gray-600">Suivi individualisé pour chaque enfant</p>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i data-feather="check" class="text-blue-500 w-4"></i>
+                        </div>
+                        <p class="text-gray-600">Espaces ludiques et coin repos adaptés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="title-font text-3xl font-bold text-gray-800 mb-4">Notre univers</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition" data-aos="zoom-in">
+                    <img src="images/garderie2.jpeg" alt="Activités enfants" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/garderie3.jpeg" alt="Salle de jeux" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/garderie5.jpg" alt="Repas enfants" class="w-full h-full object-cover">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm hover:shadow-md transition" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/garderie6.jpg" alt="Sieste enfants" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="title-font text-3xl font-bold text-gray-800 mb-4">Témoignages</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/1" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Marie K.</h4>
+                            <p class="text-blue-500 text-sm">Maman de Léa (2 ans)</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Je suis tellement rassurée de savoir mon enfant entre de bonnes mains. Les éducatrices sont attentionnées et professionnelles."</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/2" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Jean-Paul D.</h4>
+                            <p class="text-blue-500 text-sm">Papa de Lucas (3 ans)</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Les activités proposées sont vraiment adaptées à l'âge des enfants. Lucas a fait d'énormes progrès depuis qu'il fréquente la crèche."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="title-font text-3xl font-bold text-gray-800 mb-4">Contactez-nous</h2>
+                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Nos coordonnées</h3>
+                        <div class="flex items-start mb-6">
+                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                <i data-feather="map-pin" class="text-blue-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Adresse</h4>
+                                <p class="text-gray-600">Douala - Logpom Face College de l'unité</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mb-6">
+                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                <i data-feather="phone" class="text-blue-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Téléphone</h4>
+                                <p class="text-gray-600">+237 94242466</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                                <i data-feather="mail" class="text-blue-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                <p class="text-gray-600">contact@angesdenaty.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-10" data-aos="fade-left">
+                    <form class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Votre nom</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Votre email</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Votre message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary text-white px-6 py-3 rounded-full font-medium w-full">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                            <i data-feather="smile" class="text-blue-500"></i>
+                        </div>
+                        <h3 class="title-font text-xl font-bold">Les Anges de Naty</h3>
+                    </div>
+                    <p class="text-gray-400">Crèche-garderie à Douala pour l'éveil et le bien-être des tout-petits de 3 mois à 5 ans.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Liens rapides</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Accueil</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">À propos</a></li>
+                        <li><a href="#gallery" class="text-gray-400 hover:text-white transition">Galerie</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Horaires</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Lundi - Vendredi: 7h - 20h:30min</li>
+                        <li>Samedi: Fermé</li>
+                        <li>Dimanche: Fermé</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Réseaux sociaux</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
+                            <i data-feather="facebook" class="w-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-pink-600 transition">
+                            <i data-feather="instagram" class="w-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-400 transition">
+                            <i data-feather="twitter" class="w-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 Crèche Garderie Les Anges de Naty. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
